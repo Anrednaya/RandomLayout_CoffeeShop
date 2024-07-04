@@ -1,0 +1,26 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+.header-wrapper .header__menu .menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.header-wrapper .header__menu .menu li {
+  padding: 0;
+}
+.header-wrapper .header__menu .menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-wrapper {
+  width: 83%;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,19 @@
+.header-wrapper {
+    @extend %wrapper-desktop;
+    display: flex;
+    align-items: center;
+    .header__menu {
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            li {
+                padding: 0;
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
