@@ -2,9 +2,12 @@
   display: flex;
   align-items: center;
 }
+.header-wrapper .header__menu {
+  flex: 1 1 auto;
+}
 .header-wrapper .header__menu .menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   list-style-type: none;
 }
 .header-wrapper .header__menu .menu li {
@@ -13,6 +16,11 @@
 .header-wrapper .header__menu .menu li a {
   text-decoration: none;
   color: black;
+}
+.header-wrapper .header__button {
+  flex: 0 0 179px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header-wrapper {
